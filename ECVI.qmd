@@ -1,40 +1,15 @@
 ---
-title: Oligoquetos
+title: Monitoreo del estado ecológico de una playa representativa de la península de Yucatán para tres grupos clave
 author:
-  - name: Amogus
-    email: alice@example.com
-    affiliations: 
-        - id: some-tech
-          name: Some Institute of Technology
-          department: Department Name
-          address: Street Address
-          city: City
-          state: State
-          postal-code: Postal Code
+  - name: Ricardo De La Rosa-Castillo
+    email: 319296972@gmail.com
     attributes:
         corresponding: true
-    note: This is the first author footnote.
-  - name: Bob Security
+  - name: Darío Q. Gutiérrez-Urrutia
     email: bob@example.com
-    affiliations:
-        - id: another-u
-          name: Another University
-          department: Department Name
-          address: Street Address
-          city: City
-          state: State
-          postal-code: Postal Code
-    note: |
-      Another author footnote, this is a very long footnote and it should be a really long footnote. But this footnote is not yet sufficiently long enough to make two lines of footnote text.
-  - name: Cat Memes
+  - name: Elian G. Vivas-Camacho
     email: cat@example.com
-    affiliations:
-        - ref: another-u
-    note: Yet another author footnote.
-  - name: Derek Zoolander
-    email: derek@example.com
-    affilations:
-        - ref: some-tech
+
 abstract: |
   This is the abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue turpis, dictum non malesuada a, volutpat eget velit. Nam placerat turpis purus, eu tristique ex tincidunt et. Mauris sed augue eget turpis ultrices tincidunt. Sed et mi in leo porta egestas. Aliquam non laoreet velit. Nunc quis ex vitae eros aliquet auctor nec ac libero. Duis laoreet sapien eu mi luctus, in bibendum leo molestie. Sed hendrerit diam diam, ac dapibus nisl volutpat vitae. Aliquam bibendum varius libero, eu efficitur justo rutrum at. Sed at tempus elit.
 keywords: 
@@ -46,26 +21,173 @@ format:
   elsevier-pdf:
     keep-tex: true
     journal:
-      name: Journal Name
+      name: Escuela Nacional de Estudios Superiores Unidad Mérida, UNAM
       formatting: preprint
       model: 3p # Don't set a model with preprint
       layout: twocolumn
       cite-style: authoryear
 ---
 
-Please make sure that your manuscript follows the guidelines in the Guide for Authors of the relevant journal. It is not necessary to typeset your manuscript in exactly the same way as an article, unless you are submitting to a camera-ready copy (CRC) journal.
-
-For detailed instructions regarding the elsevier article class, see <https://www.elsevier.com/authors/policies-and-guidelines/latex-instructions>
-
 # Introducción
+
+Las playas en la Península de Yucatán son zonas esenciales para la biodiversidad regional y global, no sólo porque funcionan como refugio para especies de animales migratorios de importancia mundial, sino también porque son hábitat para especies clave, fundamentales en el flujo de energía en las redes tróficas y de interacción entre los organismos de los ecosistemas. Más allá de su belleza, las playas yucatecas deben preservarse para garantizar la sostenibilidad y el bienestar de las comunidades costeras y marinas [@AguilarMedrano2007].
+
+Una demostración de lo anterior son las comunidades de pastos marinos que cubren las costas poco profundas de la península. En estas grandes extensiones de vegetación se encuentran siete de las once especies que hay en México de estas plantas acuáticas, *Thalassia testudinum* König 1805, *Halodule wrightii* Ascherson 1868, *Syringodium filiforme* Kützing 1860, *Halophila engelmannii* Ascherson 1875, *Halophila decipiens* Ostenfeld 1902, *Ruppia maritima* Linnaeus 1753 y *Ruppia mexicana* den Hartog & van Tussenbroek 2016 [@EspinozaAvalos1996; @DENHARTOG201638].
+
+Las comunidades de estas plantas actúan como captadores de carbono masivos, reteniendo entre 48 y 112 Tg de carbono al año, incluyendo el carbono en la biomasa de estos organismos y los sedimentos que retienen como reservorio [@Kennedy2010; @OCANA2023102979]. Este reservorio se mantiene gracias al dosel foliar y a su sistema radical, los cuales funcionan como trampas de sedimentos [@Fourqurean2012]. Además, los pastos marinos son disipadores de la energía de las corrientes, lo que evita que el sedimento se mantenga suspendido en la columna de agua. Estas características y funciones ecológicas dependen tanto de la composición de las comunidades, como de la morfología y fisiología de las especies [@GarciaDuarte2001]; lo anterior vuelve fundamental llevar a cabo un monitoreo constante de estas zonas.
+
+Los pastos marinos también proporcionan refugio y alimento a diversas especies de animales. De todos, destacamos particularmente a los peces, cuya presencia y abundancia refleja salud en las comunidades. Comprender esta relación resulta muy valioso para la conservación de estas zonas. Así, el monitoreo de las poblaciones de peces en las zonas de pastos marinos resulta una muy buena herramienta para evaluar el equilibrio ecológico, ya que, de observar cambios en su distribución, es posible indicar alteraciones en la capacidad de los pastos marinos para retener carbono y mantener la estabilidad de la comunidad [@AguilarMedrano2007; @CHOVANEC2003639].
+
+De la misma manera, las plantas y los peces no son los únicos grupos cuya presencia puede indicar alteraciones en la salud de la comunidad. La subclase Oligochaeta (Annelida) es un grupo de gusanos que forma parte de la meiofauna marina y que cumple un papel fundamental en la estabilidad del sistema costero al ser parte esencial de las redes tróficas como alimento de diversas especies de animales, incluidos peces [@Diaz1987]. Además, este grupo edáfico contribuye al reciclaje de la materia orgánica y a la oxigenación en el sedimento; lo que influye directamente en la calidad del agua y suelo en las playas [@Giere2006; @Verdonschot2001; @Collado1999].
+
+En este grupo de organismos, *Tubificoides diazi* Brinkhurst & Baker 1979 destaca por su gran abundancia en los suelos arenosos de las playas de Yucatán, ofreciendo la oportunidad de analizar la abundancia y estructura de las poblaciones de oligoquetos para observar el estado de salud del agua, del suelo y la sostenibilidad de la zona en general [@behrend_takeda_gomes_fernandes_2012]. Esto resalta la importancia de su monitoreo como bioindicadores ecológicos.
+
+Dada la importancia de pastos marinos, peces y oligoquetos en la estabilidad ecológica de las playas de la península de Yucatán, una serie de muestreos que integren a estos tres grupos puede resultar valiosa para el monitoreo de áreas de conservación. Destacamos la importancia de emplear protocolos de muestreo existentes, ya que es fundamental para presentar información comparable con estudios previos y posteriores al presente, lo que permitirá obtener una perspectiva más completa del estado ecológico de la zona. Así, el objetivo de este trabajo es reportar el estado ecológico actual de una playa representativa de la península de Yucatán a partir del análisis de la composición y estructura de las comunidades de pastos marinos, de peces y de la estructura de la población de oligoquetos.
+
+Se plantean las siguientes hipótesis: (1) en zonas más someras existirá un mayor desarrollo de pastos marinos y algas en comparación a zonas más hondas, explicado por una disminución en la cantidad de luz disponible; (2) la composición diversa de la pradera de pastos marinos que proporciona hábitat, junto con la presencia de *T. diazi* como recurso alimenticio, fomentan la presencia de distintas especies de peces; (3) la población de *T. diazi* se concentrará en la zona intermareal, ya que esta ofrece un refugio contra la depredación por parte de peces en la zona submareal, mientras que evitan la desecación asociada a la zona supramareal.
+
+A partir de las hipótesis anteriores, se espera observar en profundidades someras en comparación con profundidades más hondas: (1) Una mayor cobertura de pastos marinos y un mayor número de especies; (2) mayor biomasa en peso húmedo de algas; (3) mayor número de haces foliares y de vástagos de pastos marinos; (4) marcas de herbivoría visibles en pastos marinos; (5) un mayor largo de individuos de pastos marinos; (6) mayor biomasa en peso húmedo de pastos marinos. Además, esperamos observar (7) el mismo número de especies de peces reportadas en muestreos similares anteriormente en el sitio y, por último, (8) un mayor número de individuos de *T. diazi* en la zona intermareal en comparación con las zonas supramareal y submareal.
 
 # Materiales y métodos
 
-Los materiales de este estudio derivan de previos protocolos de muestreo. Los sitios de muestreo están situados en la línea de la costa de una playa al norte de la península de Yucatán, México. El suelo donde se tomaron las muestras presentó, para el gradiente de la zona supramareal a la submareal, variaciones en la textura y/o en la cobertura de biomasa, sin embargo, se mantuvo consistente en estas composiciones para las réplicas.
+## **Área de estudio**
 
-El muestreo se realizó en tres días, con un día de separación entre cada uno. El primer muestreo se llevó a cabo en horario vespertino, el segundo en horarios matutino y vespertino, y el último en horario matutino. Se realizaron en transectos, separados por 50 metros, cada uno partiendo de la zona del rompimiento de olas (intermareal) hacia la zona supramareal y la zona submareal. Para la extracción de núcleos de suelo se utilizó una herramienta cilindrica de 15 cm de diámetro y 30 cm de altura efectiva. Los núcleos se tomaron con una separación de un metro entre cada uno.
+El presente se llevó a cabo en Dzilam de Bravo (21.390166° N, 88.908361° W), región costera del norte de la península de Yucatán, México. Este sitio fue seleccionado debido a su diversidad ecológica, la cual incluye a los grupos objeto de estudio. La zona se caracteriza por un clima cálido a lo largo del año, con temperaturas promedio anuales de 25.3 °C. El sustrato predominante en la zona es arena fina.
 
-Se realizaron un total de ocho transectos, cada uno con nueve núcleos, cuatro en la zona supramareal, cuatro en la submareal y uno en la intermareal. Los gusanos fueron extraídos mediante un proceso de tamizado en el que el sustrato se lavó tres veces con agua agitada para facilitar la salida de los organismos. Después, se separaron en frascos con agua marina recolectada en el sitio.
+## **Muestreo**
+
+### Parámetros fisicoquímicos
+
+Se midieron parámetros fisicoquímicos del agua marina de la zona dos veces al día, entre las 7:00 y las 11:00 hrs (matutino), y entre las 15:00 y las 18:00 hrs (vespertino), en dos días distintos separados por un día, tomando como referencia el muelle con las coordenadas 21.39027° N, 88.90837° W. Para este procedimiento se utilizó un medidor multiparamétrico ProQuatro YSI, el cual ofrece valores en tiempo real de: oxígeno disuelto (OD) (mg/L), salinidad (ppt), sólidos disueltos totales (SDT) (mg/L), pH, temperatura (C°), entre otros parámetros. Los mencionados son aquellos que se registraron para el presente estudio.
+
+### Abundancia relativa
+
+La metodología empleada en este apartado se basa en la propuesta por @Botello2022 como ‘Indicador 3’. Se seleccionaron cuatro sitios de muestreo dentro de un área de 5 metros de radio. Después, en cada uno de los sitios se colocó una unidad de muestreo (UM), la cual se trataba de un cuadrante de 1 m2 hecho de tubo PVC, dividido en 16 cuadrados con hilo de nailon, subunidades de muestreo (SUM), donde cada una de estas representó el 6.25% de la UM. Empleando una cámara acuática Nikon W300, se tomaron fotografías de cada una de las SUM para ser procesadas posteriormente en el laboratorio de campo, únicamente cuando las partículas de sedimento suspendidas en el agua no comprometían el análisis de los grupos presentes en la imagen; de ser el caso contrario, se registraron la presencia y proporciones (en porcentaje) de los grupos *in situ*.
+
+En ambos casos, las proporciones se obtuvieron por determinación visual. De igual manera, se destaca la importancia de inspeccionar entre los haces de los pastos para verificar la presencia de taxones de menor tamaño. Toda esta metodología se llevó a cabo en los horarios matutino y vespertino definidos anteriormente en dos días separados por un día. Para el primer día, el procedimiento se llevó a cabo en una zona somera para el horario matutino y en una zona profunda para el horario vespertino; para el segundo día, se llevó a cabo en una zona profunda para el horario matutino y en una zona somera para el horario vespertino.
+
+### Biomasa de macroalgas
+
+La metodología empleada en este apartado se basa en la propuesta por @Botello2022 como ‘Indicador 4’. Se seleccionaron dos sitios de muestreo, separados por 5 metros, distintos a los del procedimiento anterior. En la UM, que es la misma que se utiliza en el protocolo anterior, seleccionamos una de las SUM para colectar todos los cuerpos de macroalgas presentes en él; cuando fue posible, se separaron del sedimento que pudieran retener. Esta metodología se llevó a cabo en los horarios, días y profundidades definidas en el protocolo anterior. Las muestras de cada sitio se separaron por morfotipos distintos para después ser identificadas al menor nivel taxonómico posible con base en la guía de @Littler1989. Por último, cada grupo identificado fue pesado en húmedo.
+
+### Pastos marinos
+
+La metodología empleada en este apartado se basa en las propuestas por @Botello2022 como ‘Indicador 5’, ‘Indicador 6’ e ‘Indicador 7’. Se seleccionaron dos sitios de muestreo, separados por 5 metros, distintos a los del procedimiento anterior, estos sitios caracterizados uno como representativo de la diversidad de la zona y otro de mayor abundancia de pastos marinos. Después, en cada sitio se extrajo un núcleo de sedimento y vegetación empleando una herramienta apropiada para esto, de 15 cm de diámetro y 30 cm de alto, acomodando las hojas largas de los pastos marinos bajo la herramienta. Del núcleo extraído se conservaron los organismos y se regresó el sedimento de la muestra al lugar del que fue extraído para mitigar el efecto del muestreo en la comunidad. Esta metodología se llevó a cabo en los horarios, días y profundidades definidas anteriormente.
+
+Las muestras obtenidas se procesaron en el laboratorio de campo. Se pesaron las muestras obtenidas para cada grupo de pasto y macroalgas; sin embargo, en pastos se separaron los tejidos de arriba del sedimento y los de abajo del sedimento, en la medida de lo posible, y se pesaron ambas partes resultantes por separado para cada grupo de pasto. Además, a cada pasto marino se le contó el número de haces foliares, se buscó la presencia de marcas de herbivoría y, por último, se midieron los tres individuos más largos.
+
+### Peces
+
+La metodología empleada en este apartado se basa en la propuesta por @Botello2022 como ‘Indicador 11’. Se seleccionaron dos sitios en zonas despejadas sin vegetación. Debido a que la presencia de humanos ahuyenta a los peces de los pastizales, se usaron cámaras para fotografiar y grabar a los peces en la zona. En el primer sitio se posicionaron dos cámaras encontradas para que tomaran fotografías cada dos minutos durante 24 horas. En el segundo sitio se colocaron cuatro cámaras dispuestas en los puntos cardinales para grabar durante 1 hora. Tras recuperar las cámaras, se analizó el material obtenido para identificar las especies de peces con base en la guía de @Gallardo-Torres2014.
+
+### Oligoquetos
+
+El suelo donde se tomaron las muestras presentó, para el gradiente de la zona supramareal a la submareal, variaciones en la textura y/o en la cobertura de biomasa, sin embargo, se mantuvo consistente en estas composiciones para las réplicas. El muestreo se realizó en tres días, con un día de separación entre cada uno. El primer muestreo se llevó a cabo en horario vespertino, el segundo en horarios matutino y vespertino, y el último sólo en horario matutino. Los horarios se definieron a las 6:00 horas para matutino y a las 15:00 horas para vespertino. Se realizaron en transectos, separados por 50 metros, cada uno partiendo de la zona del rompimiento de olas (intermareal) hacia la zona supramareal y la zona submareal.
+
+El punto intermareal se estableció por la tarde para el primer día y por la mañana para el segundo y tercero, el punto intermareal se mantuvo en el mismo lugar para la medición en el horario de la tarde del segundo día, además, desde el punto intermareal se midió la distancia a un punto de referencia, donde terminara la línea de playa y comenzara la vegetación de duna costera.
+
+Para la extracción de núcleos de suelo se utilizó una herramienta cilíndrica de 30 cm de diámetro y 50 cm de altura. Los núcleos se tomaron con una separación de un metro entre cada uno. Se realizaron un total de ocho transectos, cada uno con nueve núcleos, cuatro en la zona supramareal, cuatro en la submareal y uno en la intermareal. Los gusanos fueron extraídos mediante un proceso de tamizado en el que el sustrato se lavó tres veces con agua agitada para facilitar la salida de los organismos. Después, se separaron en frascos con agua marina recolectada en el sitio. En el laboratorio de campo, se contó el número de individuos extraídos de cada núcleo y se midió la talla de cada organismo en centímetros de largo.
+
+## **Análisis de datos**
+
+Los datos obtenidos en campo, se almacenaron en hojas de cálculo para su posterior análisis. Todo el análisis se realizó en R (4.3.1) utilizando RStudio (2024.4.0.735). Las pruebas estadísticas se realizaron de manera independiente para los distintos conjuntos de datos obtenidos.
+
+Para los datos obtenidos del protocolo de oligoquetos, se tenía planeado comparar la abundancia y talla entre las distintas regiones de la playa (submareal, intermareal, supramareal) sin embargo, al empezar a extraer los oligoquetos se volvió aparente que existe más variación dentro, que entre las distintas regiones de la playa (ver Fig1), por lo que se decidió tratar los distintos núcleos como unidades de muestreo separadas.
+
+Previo al análisis estadístico se realizaron pruebas Shapiro-Wilks y Levene {car}, para observar la distribución de los datos y la homogeneidad de varianza. Dado que tanto los datos de talla de oligoquetos como su abundancia, no cumplieron los supuestos para un Análisis de Varianza, se optó por realizar un análisis de varianza multivariante permutacional (PERMANOVA). Antes de ejecutar el PERMANOVA los datos se transformaron mediante una raíz cuarta para reducir la influencia de los valores extremos.
+
+El PERMANOVA se realizó utilizando una matriz de distancia euclidiana, tanto para los datos de talla, como los de abundancia. La cantidad de oligoquetos medidos limitó el número de permutaciones a 99. Para el análisis de abundancia se logró realizar 9,999 permutaciones. Para ambos análisis se midió el efecto de dos factores: el horario de la medición, y la posición de la playa.
+
+Dada la naturaleza del estudio de cobertura de pastos marinos y algas, se ejecutó un PERMANOVA. Se empezó agrupando los datos de cobertura de las SUM, y convirtiéndolos en porcentajes. Al igual que con el análisis de oligoquetos los datos se transformaron con una raíz cuarta. Posteriormente se generó una matriz de distancia Bray-Curtis, antes de realizar un PERMANOVA, de 9,999 permutaciones, utilizando como factor la profundidad categórica. El peso de algas colectadas de los cuadrantes,asi como el de las algas y pastos extraídos con el nucleador, fue analizado de la misma manera. Por último, se realizaron dos PERMANOVAs utilizando matrices de distancias euclidianas analizando, el número de haces y el tamaño de las especies de pastos marinos extraídos con el nucleador.
+
+# Resultados
+
+```{r}
+#| label: Fig1
+#| fig-cap: Tamaño de Oligoquetos en los distintos horarios
+#| fig-width: 5
+#| fig-height: 5
+#| fig-align: center
+#| out-width: 50%
+#| echo: false
+#library(car)
+#library(dplyr)
+library(ggplot2)
+#library(MASS)
+#library(vegan)
+#install.packages('devtools')
+#library(devtools)
+#install_github("pmartinezarbizu/pairwiseAdonis/pairwiseAdonis", force = TRUE) 
+#library(pairwiseAdonis)
+
+#importar data cuando no está en el entorno
+library(readr)
+oligo <- read_csv("datos/Datos_ECVI - oligoquetos.csv", show_col_types = FALSE)
+
+#crear nucleo como factor
+oligo$grupo <- dplyr::case_when(
+  grepl("supra", oligo$ID_nucleo) ~ "supra",
+  grepl("sub", oligo$ID_nucleo) ~ "sub",
+  oligo$ID_nucleo == "inter" ~ "inter"
+)
+
+oligo$ID_nucleo <- factor(
+  oligo$ID_nucleo,
+  levels = c("4_sub", "3_sub", "2_sub", "1_sub", "inter", 
+             "1_supra", "2_supra", "3_supra", "4_supra")
+)
+oligo$facnuc<- as.numeric(factor(oligo$ID_nucleo, levels = c("4_sub", "3_sub", "2_sub", "1_sub", "inter", "1_supra", "2_supra", "3_supra", "4_supra")))
+oligo$time <- as.numeric(factor(oligo$horario, levels= c("matutino", "vespertino")))
+#class(oligo$horario)
+
+#summary(oligo$talla_cm)
+#shapiro.test(oligo$talla_cm)
+#leveneTest(oligo$talla_cm, oligo$facnuc) shapiro.test(oligo_summary$individuo)
+#leveneTest(oligo_summary$individuo, oligo_summary$facnuc)
+
+#pairwise.adonis(talla_dist, oligo$ID_nucleo, perm = 99)
+
+#Permanova abundancia
+
+#oligo_summary$individuo <- ifelse(oligo$individuo == 0.001, 0, oligo_summary$individuo)
+#abun <- as.matrix(oligo_summary$individuo)
+#r.cabun <- abun^(1/4)
+#abun_dist <- vegdist(r.cabun, method = "euclidean")
+#oligo_summary$facnuc <- as.factor(oligo_summary$facnuc)
+#oligo_summary$horario <- as.factor(oligo_summary$horario)
+#adonis2(abun_dist ~ oligo_summary$facnuc * oligo_summary$horario, data = oligo_summary, permutations = 9999, method = "euclidean")
+#adonis2(abun_dist ~ oligo_summary$facnuc, data = oligo_summary, permutations = 9999, method = "euclidean")
+#adonis2(abun_dist ~ oligo_summary$horario, data = oligo_summary, permutations = 9999, method = "euclidean")
+#pairwise.adonis(abun_dist, oligo_summary$ID_nucleo, perm = 99)
+
+#boxplot horario
+ggplot(oligo, aes(x = horario, y = talla_cm)) +
+  geom_boxplot() +
+  labs(x = "Horario", y = "Talla (cm)")
+
+```
+
+```{r}
+#| label: Fig2
+#| fig-cap: Talla de oligoquetos en los núcleos
+#| fig-width: 6.75
+#| fig-height: 6.75
+#| fig-align: center
+#| out-width: 50%
+#| echo: false
+#boxplot nucleador
+ggplot(oligo, aes(x = ID_nucleo, y= talla_cm, fill = horario)) +
+  geom_boxplot() + 
+  labs(x = "Nucleo", y = "Talla (cm)") +
+  theme(
+    axis.title.x = element_text(size = 10),  # Tamaño de la etiqueta del eje X
+    axis.title.y = element_text(size = 10),  # Tamaño de la etiqueta del eje Y
+    axis.text.x = element_text(size = 10),   # Tamaño de los valores en el eje X
+    axis.text.y = element_text(size = 10),   # Tamaño de los valores en el eje Y
+  )
+
+
+```
 
 # Bibliography styles
 
@@ -126,4 +248,4 @@ Tables can also be generated using R chunks, as shown in @tbl-simple example.
 knitr::kable(head(mtcars)[,1:4])
 ```
 
-# References {.unnumbered}
+# Referencias {.unnumbered}
