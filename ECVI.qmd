@@ -6,16 +6,19 @@ author:
     attributes:
         corresponding: true
   - name: Darío Q. Gutiérrez-Urrutia
-    email: bob@example.com
+    email: 320528677@enesmerida.unam.mx
   - name: Elian G. Vivas-Camacho
-    email: cat@example.com
+    email: 423005952@enesmerida.unam.mx
 
 abstract: |
-  This is the abstract. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum augue turpis, dictum non malesuada a, volutpat eget velit. Nam placerat turpis purus, eu tristique ex tincidunt et. Mauris sed augue eget turpis ultrices tincidunt. Sed et mi in leo porta egestas. Aliquam non laoreet velit. Nunc quis ex vitae eros aliquet auctor nec ac libero. Duis laoreet sapien eu mi luctus, in bibendum leo molestie. Sed hendrerit diam diam, ac dapibus nisl volutpat vitae. Aliquam bibendum varius libero, eu efficitur justo rutrum at. Sed at tempus elit.
+  Dada la importancia de pastos marinos, peces y oligoquetos en la estabilidad ecológica de los ecosistemas costeros de la península de Yucatán y del mundo, una serie de muestreos estandarizados que integren estos tres grupos puede resultar valiosa para el monitoreo de áreas de conservación. Analizamos el estado ecológico de una comunidad costera en una playa representativa de la península de Yucatán, empleando distintos métodos de muestreo buscamos observar mayor abundancia y riqueza en los grupos de interés en distintas zonas de la playa como indicador de estabilidad ecológica. Hipotetizamos que: (1) en zonas más someras existirá un mayor desarrollo de pastos marinos y algas en comparación a zonas más hondas, explicado por una disminución en la cantidad de luz disponible; (2) la comunidad de pastos marinos que proporciona hábitat, junto con la presencia de *T. diazi* como alimento, fomentan la presencia de distintas especies de peces; (3) la población de *T. diazi* se concentrará en la zona intermareal, explicado porque esta zona ofrece refugio contra la depredación y la desecación. Para probar estas hipótesis, empleamos y adaptamos previos métodos de monitoreo y muestreo estandarizados, en un período de cinco días en la localidad costera Dzilam de Bravo, seleccionada por su diversidad biológica. No encontramos evidencia suficiente para respaldar nuestras hipótesis, pero tampoco podemos descartarlas por completo, ya que se observó una tendencia acorde con lo planteado. Nuestros hallazgos abren nuevas oportunidades a futuras investigaciones complementarias que amplíen la metodología empleada, permitiendo obtener datos más concluyentes y garantizar un monitoreo representativo que identifique el estado ecológico de la playa, en aras de la sostenibilidad y el bienestar de las comunidades costeras y marinas, regionales y globales.
 keywords: 
-  - keyword1
-  - keyword2
-date: last-modified
+  - Monitoreo ambiental
+  - playas de la Península de Yucatán
+  - pastos marinos
+  - peces
+  - oligoquetos
+date: Mayo 27, 2025
 bibliography: bibliography.bib
 format:
   elsevier-pdf:
@@ -42,7 +45,7 @@ De la misma manera, las plantas y los peces no son los únicos grupos cuya prese
 
 En este grupo de organismos, *Tubificoides diazi* Brinkhurst & Baker 1979 destaca por su gran abundancia en los suelos arenosos de las playas de Yucatán, ofreciendo la oportunidad de analizar la abundancia y estructura de las poblaciones de oligoquetos para observar el estado de salud del agua, del suelo y la sostenibilidad de la zona en general [@behrend_takeda_gomes_fernandes_2012]. Esto resalta la importancia de su monitoreo como bioindicadores ecológicos.
 
-Dada la importancia de pastos marinos, peces y oligoquetos en la estabilidad ecológica de las playas de la península de Yucatán, una serie de muestreos que integren a estos tres grupos puede resultar valiosa para el monitoreo de áreas de conservación. Destacamos la importancia de emplear protocolos de muestreo existentes, ya que es fundamental para presentar información comparable con estudios previos y posteriores al presente, lo que permitirá obtener una perspectiva más completa del estado ecológico de la zona. Así, el objetivo de este trabajo es reportar el estado ecológico actual de una playa representativa de la península de Yucatán a partir del análisis de la composición y estructura de las comunidades de pastos marinos, de peces y de la estructura de la población de oligoquetos.
+Dada la importancia de pastos marinos, peces y oligoquetos en la estabilidad ecológica de las playas de la península de Yucatán, una serie de muestreos estandarizados que integren a estos tres grupos puede resultar valiosa para el monitoreo de áreas de conservación. Destacamos la importancia de emplear protocolos de muestreo existentes, ya que es fundamental para presentar información comparable con estudios previos y posteriores al presente, lo que permitirá obtener una perspectiva más completa del estado ecológico de la zona. Así, el objetivo de este trabajo es reportar el estado ecológico actual de una playa representativa de la península de Yucatán a partir del análisis de la composición y estructura de las comunidades de pastos marinos, de peces y de la estructura de la población de oligoquetos.
 
 Se plantean las siguientes hipótesis: (1) en zonas más someras existirá un mayor desarrollo de pastos marinos y algas en comparación a zonas más hondas, explicado por una disminución en la cantidad de luz disponible; (2) la composición diversa de la pradera de pastos marinos que proporciona hábitat, junto con la presencia de *T. diazi* como recurso alimenticio, fomentan la presencia de distintas especies de peces; (3) la población de *T. diazi* se concentrará en la zona intermareal, ya que esta ofrece un refugio contra la depredación por parte de peces en la zona submareal, mientras que evitan la desecación asociada a la zona supramareal.
 
@@ -52,7 +55,7 @@ A partir de las hipótesis anteriores, se espera observar en profundidades somer
 
 ## **Área de estudio**
 
-El presente se llevó a cabo en Dzilam de Bravo (21.390166° N, 88.908361° W), región costera del norte de la península de Yucatán, México. Este sitio fue seleccionado debido a su diversidad ecológica, la cual incluye a los grupos objeto de estudio. La zona se caracteriza por un clima cálido a lo largo del año, con temperaturas promedio anuales de 25.3 °C. El sustrato predominante en la zona es arena fina.
+El presente se llevó a cabo en Dzilam de Bravo (21.390166° N, 88.908361° W), región costera del norte de la península de Yucatán, México. Este sitio fue seleccionado debido a su diversidad biológica, la cual incluye a los grupos objeto de estudio. La zona se caracteriza por un clima cálido a lo largo del año, con temperaturas promedio anuales de 25.3 °C. El sustrato predominante en la zona es arena fina.
 
 ## **Muestreo**
 
@@ -92,7 +95,7 @@ Para la extracción de núcleos de suelo se utilizó una herramienta cilíndrica
 
 Los datos obtenidos en campo, se almacenaron en hojas de cálculo para su posterior análisis. Todo el análisis se realizó en R (4.3.1) utilizando RStudio (2024.4.0.735). Las pruebas estadísticas se realizaron de manera independiente para los distintos conjuntos de datos obtenidos.
 
-Para los datos obtenidos del protocolo de oligoquetos, se tenía planeado comparar la abundancia y talla entre las distintas regiones de la playa (submareal, intermareal, supramareal) sin embargo, al empezar a extraer los oligoquetos se volvió aparente que existe más variación dentro, que entre las distintas regiones de la playa (ver Fig1), por lo que se decidió tratar los distintos núcleos como unidades de muestreo separadas.
+Para los datos obtenidos del protocolo de oligoquetos, se tenía planeado comparar la abundancia y talla entre las distintas regiones de la playa (submareal, intermareal, supramareal) sin embargo, al empezar a extraer los oligoquetos se volvió aparente que existe más variación dentro, que entre las distintas regiones de la playa (ver @fig-5), por lo que se decidió tratar los distintos núcleos como unidades de muestreo separadas.
 
 Previo al análisis estadístico se realizaron pruebas Shapiro-Wilks y Levene {car}, para observar la distribución de los datos y la homogeneidad de varianza. Dado que tanto los datos de talla de oligoquetos como su abundancia, no cumplieron los supuestos para un Análisis de Varianza, se optó por realizar un análisis de varianza multivariante permutacional (PERMANOVA). Antes de ejecutar el PERMANOVA los datos se transformaron mediante una raíz cuarta para reducir la influencia de los valores extremos.
 
@@ -103,13 +106,229 @@ Dada la naturaleza del estudio de cobertura de pastos marinos y algas, se ejecut
 # Resultados
 
 ```{r}
-#| label: Fig1
-#| fig-cap: Tamaño de Oligoquetos en los distintos horarios
+#| label: tbl-1
+#| tbl-cap: Variables ambientales del agua medidas con el medidor multiparamétrico. Las mediciones se tomaron al principio de cada muestreo de pastos marinos.
+#| echo: false
+#| warning: false
+library(readr)
+
+#install.packages("kableExtra")
+library(kableExtra)
+tabla1_Hoja_1 <- read_csv("tablas/tabla1 - Hoja 1.csv", show_col_types = FALSE)
+knitr::kable(tabla1_Hoja_1) %>%
+  kable_styling() %>%
+  row_spec(0:nrow(tabla1_Hoja_1), font_size = 5) %>%
+  column_spec(column = 1:ncol(tabla1_Hoja_1), width = "0.7cm")
+
+
+```
+
+## Pastos marinos
+El protocolo de pastos se realizó a lo largo de 2 días en 4 eventos de muestreo. En total se midió la cobertura de 14 cuadrantes, 8 en zonas someras y 6 profundas. Se identificaron 3 especies de pastos marinos (*Thalassia testudinum*, *Syringodium filiforme*, *Halodule beaudettei*), y 4 especies de algas (*Laurencia poitei*, *Acetabularia calyculus*, *Halimeda incrassata*, *Penicillus capitatus*). En zonas someras, hay una mayor cobertura de algas, en comparación con zonas más profundas, sin embargo en ambas regiones los pastos marinos son más dominantes que especies de algas. El análisis estadístico no mostró diferencias estadísticamente significativas entre la composición de la cobertura en las dos profundidades (F = 0.83, *p = 0.3924*). La especie de pasto *H. beaudettei* contribuyó más a la disimilitud entre las dos profundidades, seguido por *P. capitatus* y *L. poitei*.
+
+```{r}
+#| label: fig-1
+#| fig-cap: (a) MDS y (b) PCO de la cobertura de la comunidad de pastos, los colores representan la profundidad (profundo = rojo, somero = azul). 
 #| fig-width: 5
 #| fig-height: 5
 #| fig-align: center
 #| out-width: 50%
 #| echo: false
+#| warning: false
+#| message: false
+
+suppressMessages(suppressWarnings(library(ggplot2)))
+suppressMessages(suppressWarnings(library(readr)))
+suppressMessages(suppressWarnings(library(dplyr)))
+Datos_ECVI_pastos_porcentaje_cobertura <- read_csv("datos/Datos_ECVI - pastos_porcentaje_cobertura.csv", show_col_types = FALSE)
+
+cover = Datos_ECVI_pastos_porcentaje_cobertura
+
+#agrupar subcuadrantes en cuadros
+cover_summary <- cover %>%
+  group_by(fecha, cuadrante, profundidad) %>%
+  summarise(across(all_of(names(cover)[9:15]), sum)) %>%
+  ungroup()
+#View(cover)
+
+#convertir en porcentajes
+cover_summary$Ttper <- (cover_summary$`Thalassia testudinum`)/16
+cover_summary$Lpper <- (cover_summary$`Laurencia poitei`)/16
+cover_summary$Sfper <- (cover_summary$`Syringodium filiforme`)/16
+cover_summary$Acper <- (cover_summary$`Acetabularia crenulata`)/16
+cover_summary$Hiper <- (cover_summary$`Halimeda incrassata`)/16
+cover_summary$Hbper <- (cover_summary$`Halodule beaudettei`)/16
+cover_summary$Pcper <- (cover_summary$`Penicillus capitatus`)/16
+
+#permanova
+suppressMessages(suppressWarnings(library(vegan)))
+covper <- cover_summary[,11:17]
+r.c <- (covper)^(1/4)
+covper_bray <- vegdist(r.c, method = "bray")
+
+
+resultado_adonis = adonis2(covper_bray ~ profundidad, data = cover_summary, permutations = 9999)
+
+simpcover <- simper(covper, group = cover_summary$profundidad)
+
+
+#nmds de porcentajes de cobertura de cuadros
+nmdscovper <- metaMDS((covper), distance = "bray", trace = FALSE)
+nmdscovper_df <- data.frame(NMDS1 = nmdscovper$points[, 1], 
+                           NMDS2 = nmdscovper$points[, 2], 
+                           Depth = cover_summary$profundidad)
+
+# graficar NMDS
+plot1 = ggplot(nmdscovper_df, aes(x = NMDS1, y = NMDS2, color = Depth)) +
+  geom_point(size = 3, alpha = 0.7) +
+  theme_minimal() +
+  scale_color_manual(values = c("somero" = "blue", "profundo" = "red")) +
+  labs(title = "a)",
+       x = "Eje 1",
+       y = "Eje 2",
+       color = "Profundidad")
+
+#pco cobertura cuadros
+pco_covper <- cmdscale(covper_bray, k = 2, eig = TRUE)
+pco_df <- data.frame(PCO1 = pco_covper$points[,1], 
+                     PCO2 = pco_covper$points[,2], 
+                     Grupo = cover_summary$profundidad)
+plot2 = ggplot(pco_df, aes(x = PCO1, y = PCO2, color = Grupo)) +
+  geom_point(size = 3, alpha = 0.8) +
+  theme_minimal() +
+  labs(title = "b)",
+       x = "Eje 1",
+       y = "Eje 2")
+
+
+# juntar amabs gráficas
+suppressMessages(suppressWarnings(library(patchwork)))
+plot1 / plot2 # una gráfica sobre la otra
+
+
+```
+
+```{r}
+#| label: tbl-2
+#| tbl-cap: La cobertura promedio de los cuadrantes en las dos profundidades, y el total de ambas profundidades por especie. La columna “Total” muestra la suma total de los porcentajes de cobertura de todas las especies. La fila de aporte a la disimilitud muestra cuando las especies contribuyen a la diferencia entre ambas zonas. Los valores *p* fueron calculados con la función de simper {vegan}, y valores mas bajos indican un mayor aporte a las diferencias entre las dos profundidades.
+#| echo: false
+#| warning: false
+library(readr)
+
+#install.packages("kableExtra")
+library(kableExtra)
+tabla2_Hoja_2 <- read_csv("tablas/tabla2 - Hoja 2.csv", show_col_types = FALSE)
+knitr::kable(tabla2_Hoja_2) %>%
+  kable_styling() %>%
+  row_spec(0:nrow(tabla2_Hoja_2), font_size = 5) %>%
+  column_spec(1:ncol(tabla2_Hoja_2), width = "0.7cm")
+
+
+```
+
+```{r}
+#| label: fig-2
+#| fig-cap: MDS del peso de las algas extraídas de un cuadrante de 25 cm^2. Los muestreos en zonas profundas están representados por los puntos rojos mientras los de las zonas someras en azul.
+#| fig-width: 5
+#| fig-height: 5
+#| fig-align: center
+#| out-width: 50%
+#| echo: false
+#| warning: false
+#| message: false
+
+library(readr)
+Datos_ECVI_algas_biomasa <- read_csv("datos/Datos_ECVI - algas_biomasa.csv")
+
+#Biomasa alga
+algamasa <- Datos_ECVI_algas_biomasa[,7:13]
+rcalga <- algamasa^(1/4)
+algadist <- vegdist(rcalga, method = "bray")
+resultado2_adonis = adonis2(algadist ~ profundidad, data = Datos_ECVI_algas_biomasa, permutations = 9999, method = "bray")
+
+nmdsalga <- metaMDS(log(algamasa+0.1), distance = "bray", trace = FALSE)
+nmdsalga_df <- data.frame(NMDS1 = nmdsalga$points[, 1], 
+                             NMDS2 = nmdsalga$points[, 2], 
+                             Depth = Datos_ECVI_algas_biomasa$profundidad)
+
+# graficar NMDS
+ggplot(nmdsalga_df, aes(x = NMDS1, y = NMDS2, color = Depth)) +
+  geom_point(size = 3, alpha = 0.7) +
+  theme_minimal() +
+  scale_color_manual(values = c("somero" = "blue", "profundo" = "red")) +
+  labs(x = "Eje 1",
+       y = "Eje 2",
+       color = "Profundidad")
+
+#peso nucleador
+Datos_ECVI_peso_nucleos <- read_csv("datos/Datos_ECVI - peso_nucleos.csv")
+peso <- Datos_ECVI_peso_nucleos[,9:15]
+rc.peso <- peso^(1/4)
+pesodist <- vegdist(rc.peso, method = "bray")
+resultado3_adonis = adonis2(pesodist ~ profundidad, data = Datos_ECVI_peso_nucleos, permutations = 9999, method = "bray")
+
+# permanova otros
+profnuc <- c("somero", "somero", "profundo", "profundo", "profundo", "profundo", "somero", "somero")
+Datos_ECVI_pastos_nucleos <- read_csv("datos/Datos_ECVI - pastos_nucleos.csv")
+vechace <- Datos_ECVI_pastos_nucleos$num_haces 
+mathace <- matrix(vechace, ncol = 3, byrow = TRUE)
+rc.hace <- mathace^(1/4)
+dist.hace <- vegdist(rc.hace, method = "euclidean", na.rm = TRUE)
+resultado4 = adonis2(dist.hace ~ profnuc, permutations = 9999, method = "euclidean")
+
+#largo de hojas
+veclargo <- as.vector(t(Datos_ECVI_pastos_nucleos[,14:16]))
+matlargo <- matrix(veclargo, ncol = 9, byrow = TRUE)
+rc.hace <- mathace^(1/4)
+dist.hace <- vegdist(rc.hace, method = "euclidean", na.rm = TRUE)
+resultado5_adonis = adonis2(dist.hace ~ profnuc, permutations = 9999, method = "euclidean")
+
+
+```
+
+Para el protocolo de biomasa de algas se colectaron las algas de 8 SUM. Se identificaron 7 especies, 4 de las cuales no se habían presentado en el muestreo de cobertura (*Dictyota divaricata*, *Dictyota cervicornis*, *Udotea sp.*, *A. crenulata*). El PERMANOVA no mostró diferencias significativas entre las dos profundidades (F = 1.4239, *p = 0.2621*). Por último se habían extraído 8 núcleos de sedimento. Ninguno de los análisis a los datos extraídos de los núcleos mostraron diferencias significativas (biomasa de las algas y pastos, F = 0.6667, *p = 0.7119*; número de haces, F = 0.4803, *p = 0.7418*; individuos más largos, F = 1.4908, *p = 0.2837*). 
+
+## Peces
+Las cámaras trampa capturaron un total de 1,514 fotos, 39 de las cuales contenían peces. Se lograron identificar dos especies. La especie que más salió en las fotos fue *Eucinostomus gula* (mojarra española), es probable que las distintas fotos sean del mismo individuo (@fig-3) La segunda especie que se logró identificar fue *Sphoeroides testudineus*, que apareció en solamente una imagen (@fig-4). Hubo una imagen que capturó a 4 peces pero por la distancia a la cámara no se lograron identificar.
+
+```{r}
+#| label: fig-3
+#| fig-cap: Foto capturada con la cámara trampa de *E. gula*.
+#| fig-width: 5
+#| fig-height: 5
+#| fig-align: center
+#| out-width: 50%
+#| echo: false
+library(knitr)
+include_graphics("C:\\Users\\Ricardo\\Documents\\Ecología\\ENES\\6to sem\\Campo\\E2\\ECVI\\FOTOS\\DSCF0173_Egula.JPG")
+
+```
+
+```{r}
+#| label: fig-4
+#| fig-cap: Foto capturada con la cámara trampa de *S. testudineus*.
+#| fig-width: 5
+#| fig-height: 5
+#| fig-align: center
+#| out-width: 50%
+#| echo: false
+library(knitr)
+include_graphics("C:\\Users\\Ricardo\\Documents\\Ecología\\ENES\\6to sem\\Campo\\E2\\ECVI\\FOTOS\\DSCF0450_S.JPG")
+```
+
+## Oligoquetos
+Durante el transcurso de la práctica se realizaron 8 transectos, 4 en el horario matutino y en el horario vespertino. En cada transecto se extrajeron 9 núcleos: 4 en la zona submareal, 1 en el intermareal, y 4 en la área supramareal.  En total se realizaron 72 muestreos donde se recolectaron 1,226 oligoquetos con un tamaño medio de 4.5 cm, una mediana de 3.8,  con un rango en tamaño de entre 0.2 cm y 20.1 cm. La abundancia de individuos por núcleo estuvo entre 0 y 141, con una media de 15.8 y mediana de 3. La mayoría de oligoquetos se encontraron al centro del transecto, con los muestreos en el supramareal 4 y submareal 4, sin presentar ningún oligoqueto en la mayoría de los muestreos. Para ambas variables los muestreos más alejados del intermareal, tanto en las zonas submareales, como las supramareales, presentaron valores medios más bajos.
+
+```{r}
+#| label: fig-5
+#| fig-cap: Boxplot de la talla de oligoquetos en los distintos muestreos de la playa. Los colores representan horarios distintos (matutino = rojo, vespertino = azul).
+#| fig-width: 6.75
+#| fig-height: 6.75
+#| fig-align: center
+#| out-width: 50%
+#| echo: false
+
+
 #library(car)
 #library(dplyr)
 library(ggplot2)
@@ -160,21 +379,7 @@ oligo$time <- as.numeric(factor(oligo$horario, levels= c("matutino", "vespertino
 #adonis2(abun_dist ~ oligo_summary$horario, data = oligo_summary, permutations = 9999, method = "euclidean")
 #pairwise.adonis(abun_dist, oligo_summary$ID_nucleo, perm = 99)
 
-#boxplot horario
-ggplot(oligo, aes(x = horario, y = talla_cm)) +
-  geom_boxplot() +
-  labs(x = "Horario", y = "Talla (cm)")
 
-```
-
-```{r}
-#| label: Fig2
-#| fig-cap: Talla de oligoquetos en los núcleos
-#| fig-width: 6.75
-#| fig-height: 6.75
-#| fig-align: center
-#| out-width: 50%
-#| echo: false
 #boxplot nucleador
 ggplot(oligo, aes(x = ID_nucleo, y= talla_cm, fill = horario)) +
   geom_boxplot() + 
@@ -189,63 +394,65 @@ ggplot(oligo, aes(x = ID_nucleo, y= talla_cm, fill = horario)) +
 
 ```
 
-# Bibliography styles
-
-Here are two sample references: @Feynman1963118 @Dirac1953888.
-
-With this template using elsevier class, natbib will be used. Three bibliographic style ﬁles (\*.bst) are provided and their use controled by `cite-style` option:
-
--   `citestyle: number` (default) will use `elsarticle-num.bst` - can be used for the numbered scheme
--   `citestyle: numbername` will use `elsarticle-num-names.bst` - can be used for numbered with new options of natbib.sty
--   `citestyle: authoryear` will use `elsarticle-harv.bst` — can be used for author year scheme
-
-This `citestyle` will insert the right `.bst` and set the correct `classoption` for `elsarticle` document class.
-
-Using `natbiboptions` variable in YAML header, you can set more options for `natbib` itself . Example
-
-``` yaml
-natbiboptions: longnamesfirst,angle,semicolon
-```
-
-## Using CSL
-
-If `cite-method` is set to `citeproc` in `elsevier_article()`, then pandoc is used for citations instead of `natbib`. In this case, the `csl` option is used to format the references. By default, this template will provide an appropriate style, but alternative `csl` files are available from <https://www.zotero.org/styles?q=elsevier>. These can be downloaded and stored locally, or the url can be used as in the example header.
-
-# Equations
-
-Here is an equation: $$ 
-  f_{X}(x) = \left(\frac{\alpha}{\beta}\right)
-  \left(\frac{x}{\beta}\right)^{\alpha-1}
-  e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; 
-  \alpha,\beta,x > 0 .
-$$
-
-Inline equations work as well: $\sum_{i = 2}^\infty\{\alpha_i^\beta\}$
-
-# Figures and tables
-
-@fig-meaningless is generated using an R chunk.
-
 ```{r}
-#| label: fig-meaningless
-#| fig-cap: A meaningless scatterplot
+#| label: fig-6
+#| fig-cap: Boxplot de la talla de oligoquetos en ambos horarios.
 #| fig-width: 5
 #| fig-height: 5
 #| fig-align: center
 #| out-width: 50%
 #| echo: false
-plot(runif(25), runif(25))
+#boxplot horario
+ggplot(oligo, aes(x = horario, y = talla_cm)) +
+  geom_boxplot() +
+  labs(x = "Horario", y = "Talla (cm)")
+
 ```
-
-# Tables coming from R
-
-Tables can also be generated using R chunks, as shown in @tbl-simple example.
 
 ```{r}
-#| label: tbl-simple
-#| tbl-cap: Caption centered above table
-#| echo: true
-knitr::kable(head(mtcars)[,1:4])
+#| label: fig-7
+#| fig-cap: Boxplot de la abundancia de oligoquetos a lo largo de los transectos. Los colores representan el horario (matutino = rojo, vespertino = morado).
+#| fig-width: 6.75
+#| fig-height: 6.75
+#| fig-align: center
+#| out-width: 50%
+#| echo: false
+#Grafico abundancia
+ggplot(oligo, aes(x = ID_nucleo, y= individuo, fill = horario)) +
+  geom_boxplot() + 
+  scale_fill_manual(values = c(matutino = "#E73", vespertino = "#734f96"   )) +
+  labs( x = "Nucleo", y = "Numero de individuos")
+
 ```
 
-# Referencias {.unnumbered}
+El análisis mostró que tanto la hora (F = 10.081, *p < 0.01*; @fig-6), como la posición en la playa (F = 51.336 , *p < 0.01*; @fig-5) y la interacción entre ambos (F = 28.042, *p < 0.01*), son factores que influyen de manera significativa sobre la talla. El tamaño promedio de los oligoquetos extraídos en el horario matutino es ligeramente mayor que los encontrados en el horario vespertino. El tamaño de los oligoquetos va incrementando desde el submareal 4 hasta el intermareal donde se mantiene constante hasta el supramareal 2 donde vuelve a declinar. Para la variable de abundancia únicamente la posición en la playa influyó de manera significativa (F = 10.554, *p = 0.0001*; @fig-7), sin embargo la interacción entre las dos variables fue significativa. Para ambas variables los muestreos más alejados del intermareal, tanto en las zonas submareales, como las supramareales, presentaron valores medios más bajos.
+
+# Discusión
+
+Este estudio analiza el estado ecológico de una playa representativa de la península de Yucatán, centrándose en tres grupos de organismos clave para el ecosistema, involucrados en la salud de la comunidad a través de sus interacciones bióticas. Con base en los resultados obtenidos de los análisis, no podemos afirmar con certeza que nuestras predicciones iniciales se hayan cumplido, pero tampoco podemos descartarlas por completo, ya que se observa una tendencia acorde con lo planteado, aún si los datos obtenidos no ofrecen evidencia suficiente para confirmar que las predicciones se cumplieron. Para futuras investigaciones, sugerimos aumentar la cantidad de muestras para obtener datos más representativos y mejorar la precisión de los análisis.
+
+Estudios previos han señalado una abundante presencia de organismos intersticiales tanto en la zona intermareal como en la supramareal, particularmente en regiones húmedas pero no sumergidas, @McLachlanBrown2006 denominaron este espacio como la "zona de retención". De la misma manera, la distribución de estos organismos, debido a su carácter de menores dimensiones, está influenciada principalmente por interacciones bióticas, como la atracción para la reproducción y la evasión de depredadores [@Giere2009].
+
+Así, el constante movimiento de las corrientes marinas resulta fundamental en esta distribución, pues se ha observado que el levantamiento del sedimento los deja expuestos y vulnerables a sus depredadores y a ser transportados incluso por corrientes de baja intensidad, lo que limita su permanencia en zonas de inundación prolongada [@McLachlanBrown2006]. Para estudios futuros, será esencial considerar la influencia de las variaciones en la altura de la marea en la distribución de estas poblaciones, en lugar de asumir un punto fijo como zona intermareal.
+
+La distribución de oligoquetos sigue patrones definidos, aunque con ciertas variaciones irregulares. @EdwardsArancon2022 reportan ritmos de actividad diurnos, lo que indica que los horarios en los que se realizaron los muestreos no fueron la causa de la falta de certidumbre en los datos. Además, el número de individuos por núcleo fue similar con lo reportado previamente en estudios que utilizaron la misma metodología en la misma zona [@Guerra-Castro2020], lo que sugiere que los datos obtenidos son representativos de la población estudiada.
+
+Por otra parte, durante el muestreo, se registró una cobertura de biomasa de vegetación en descomposición sobre la zona de retención en la supramareal, lo que pudo haber influido en la retención de humedad del ambiente intersticial y, en consecuencia, en la distribución de la población de *T. diazi* en la playa. Estos factores pudieron haber sido la causa de que los datos no fueran lo suficientemente contundentes para respaldar con certeza los fenómenos previamente descritos, por lo tanto, representan un punto de partida para futuras investigaciones que consideren estos elementos.
+
+En cuanto al registro de peces, las cámaras utilizadas para la grabación no estaban correctamente configuradas, lo que impidió la obtención de datos. Respecto a las fotografías, el material obtenido no representa la diversidad reportada previamente en la zona, la cantidad de especies que reportamos sólo cubre 2 de las 81 reportadas para la comunidad de la localidad, sin embargo, son dos de las seis especies más abundantes en el sitio [@ArceoCarranza2009].
+
+Para futuros trabajos de monitoreo recomendamos seguir la metodología de @ArceoCarranza2009, donde se llevaron a cabo seis muestreos bimestrales, separados por dos meses, que en conjunto abarcaron un período de un año. Un monitoreo más prolongado permitirá observar una mayor y mejor representación de la fauna íctica de la región y el papel de la comunidad de pastos marinos como zonas de gran impacto ecológico [@CATALAN_DUNAND_ÁLVAREZ_ALOS_COLINAS_NASH_2014].
+
+Por otro lado, para la evaluación del desarrollo de la composición de pastos marinos tampoco observamos datos contundentes para asegurar el cumplimiento de nuestras predicciones, sin embargo, como en los casos anteriores, una ampliación de nuestra metodología permitiría observar variación de manera más significativa, un mayor número de muestras y profundidades más alejadas de la línea de la costa. Resaltamos particularmente los resultados obtenidos para la cobertura, sería recomendable realizar mediciones adicionales mar adentro, pues, a pesar de que la distancia a la que llevamos a cabo el muestreo no presentó la variación esperada, la profundidad, como se observa en la @fig-1, explica en buena medida dicha variación, aunque no la explique lo suficiente.
+
+No consideramos que la aparente homogeneidad de la comunidad de pastos marinos sea consecuencia de eventos de origen antrópico o natural, sino por limitaciones en la metodología empleada. Sin embargo, resaltamos la importancia de considerar ciertas perturbaciones en futuros estudios dirigidos a evaluar y reportar el estado ecológico de las comunidades costeras.
+
+@HERRERASILVEIRA200972 reportan que los cambios negativos en la cobertura y composición de especies de vegetación acuática sumergida en pastos marinos están generalmente asociados con la eutrofización del ambiente [@OrthMoore1983; @Stevenson1993], provocada por un crecimiento excesivo de macroalgas y epífitas [@Dennison1993]; así mismo, indican que no existe una medida que determine cuándo el crecimiento de estos organismos se vuelve nocivo para la comunidad. No obstante, resaltan que un buen acercamiento para evaluar esta situación es examinar el cambio en el porcentaje de cobertura en el tiempo [@Bricker2003]. Así, llevar a cabo monitoreos periódicos siguiendo una metodología estandarizada, se vuelve clave para prevenir el deterioro en la salud de la comunidad de pastos marinos.
+
+Por otra parte, @Herrera-Silveira2019 analizan el impacto de los puertos industrializados en las comunidades de pastos marinos, especialmente en zonas de intenso desarrollo costero, donde la pérdida de extensas áreas de estas plantas ocurre a un ritmo acelerado. De la misma manera, presentan los efectos de estas pérdidas en la calidad del agua, como el aumento de la turbidez debido a la disminución en la retención de sedimentos y la eutrofización causada por la ausencia de estos organismos clave en el ciclaje de nutrientes.
+
+Además, las comunidades de pastos marinos también se ven afectadas por eventos hidrometeorológicos, los cuales incrementan la escorrentía y, en consecuencia, la turbidez del agua, reduciendo la disponibilidad de luz. Este fenómeno se agrava en el caso de tormentas prolongadas, que pueden durar semanas y causar daños significativos, al dañar, remover y enterrar grandes cantidades de biomasa de estas plantas acuáticas [@Herrera-Silveira2019].
+
+Aunque nuestro estudio no obtuvo evidencia concluyente para determinar el estado ecológico de la comunidad en la playa de Dzilam de Bravo, sí ofrece un panorama sobre las condiciones en las que se encuentra. En zonas como esta, donde las comunidades de pastos marinos están sometidas a una intensa presión por efectos antrópicos derivados de grandes desarrollos costeros, así como por factores naturales propios de una región expuesta constantemente a eventos hidrometeorológicos, es fundamental realizar muestreos periódicos y estandarizados que permitan evaluar el impacto de dichas perturbaciones en los pastos marinos, zonas clave para garantizar la sostenibilidad y el bienestar de las comunidades costeras y marinas, regionales y globales, al ser sitios esenciales para la interacción intra e interespecífica.
+
+# Referencias

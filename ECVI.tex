@@ -67,46 +67,6 @@
 \fi
 \makeatother
 
-\usepackage{color}
-\usepackage{fancyvrb}
-\newcommand{\VerbBar}{|}
-\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
-\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
-% Add ',fontsize=\small' for more characters per line
-\usepackage{framed}
-\definecolor{shadecolor}{RGB}{241,243,245}
-\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.40,0.45,0.13}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.28,0.35,0.67}{#1}}
-\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
-\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.07,0.07,0.07}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
 
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
@@ -133,6 +93,20 @@
 \def\fps@figure{htbp}
 \makeatother
 
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -208,7 +182,8 @@
 \hypersetup{
   pdftitle={Monitoreo del estado ecológico de una playa representativa de la península de Yucatán para tres grupos clave},
   pdfauthor={Ricardo De La Rosa-Castillo; Darío Q. Gutiérrez-Urrutia; Elian G. Vivas-Camacho},
-  pdfkeywords={keyword1, keyword2},
+  pdfkeywords={Monitoreo ambiental, playas de la Península de
+Yucatán, pastos marinos, peces, oligoquetos},
   colorlinks=true,
   linkcolor={blue},
   filecolor={Maroon},
@@ -230,11 +205,11 @@ península de Yucatán para tres grupos clave}
 \author[]{Darío Q. Gutiérrez-Urrutia%
 %
 }
- \ead{bob@example.com} 
+ \ead{320528677@enesmerida.unam.mx} 
 \author[]{Elian G. Vivas-Camacho%
 %
 }
- \ead{cat@example.com} 
+ \ead{423005952@enesmerida.unam.mx} 
 
 
 \cortext[cor1]{Corresponding author}
@@ -243,15 +218,33 @@ península de Yucatán para tres grupos clave}
 
         
 \begin{abstract}
-This is the abstract. Lorem ipsum dolor sit amet, consectetur adipiscing
-elit. Vestibulum augue turpis, dictum non malesuada a, volutpat eget
-velit. Nam placerat turpis purus, eu tristique ex tincidunt et. Mauris
-sed augue eget turpis ultrices tincidunt. Sed et mi in leo porta
-egestas. Aliquam non laoreet velit. Nunc quis ex vitae eros aliquet
-auctor nec ac libero. Duis laoreet sapien eu mi luctus, in bibendum leo
-molestie. Sed hendrerit diam diam, ac dapibus nisl volutpat vitae.
-Aliquam bibendum varius libero, eu efficitur justo rutrum at. Sed at
-tempus elit.
+Dada la importancia de pastos marinos, peces y oligoquetos en la
+estabilidad ecológica de los ecosistemas costeros de la península de
+Yucatán y del mundo, una serie de muestreos estandarizados que integren
+estos tres grupos puede resultar valiosa para el monitoreo de áreas de
+conservación. Analizamos el estado ecológico de una comunidad costera en
+una playa representativa de la península de Yucatán, empleando distintos
+métodos de muestreo buscamos observar mayor abundancia y riqueza en los
+grupos de interés en distintas zonas de la playa como indicador de
+estabilidad ecológica. Hipotetizamos que: (1) en zonas más someras
+existirá un mayor desarrollo de pastos marinos y algas en comparación a
+zonas más hondas, explicado por una disminución en la cantidad de luz
+disponible; (2) la comunidad de pastos marinos que proporciona hábitat,
+junto con la presencia de \emph{T. diazi} como alimento, fomentan la
+presencia de distintas especies de peces; (3) la población de \emph{T.
+diazi} se concentrará en la zona intermareal, explicado porque esta zona
+ofrece refugio contra la depredación y la desecación. Para probar estas
+hipótesis, empleamos y adaptamos previos métodos de monitoreo y muestreo
+estandarizados, en un período de cinco días en la localidad costera
+Dzilam de Bravo, seleccionada por su diversidad biológica. No
+encontramos evidencia suficiente para respaldar nuestras hipótesis, pero
+tampoco podemos descartarlas por completo, ya que se observó una
+tendencia acorde con lo planteado. Nuestros hallazgos abren nuevas
+oportunidades a futuras investigaciones complementarias que amplíen la
+metodología empleada, permitiendo obtener datos más concluyentes y
+garantizar un monitoreo representativo que identifique el estado
+ecológico de la playa, en aras de la sostenibilidad y el bienestar de
+las comunidades costeras y marinas, regionales y globales.
 \end{abstract}
 
 
@@ -259,8 +252,9 @@ tempus elit.
 
 
 \begin{keyword}
-    keyword1 \sep 
-    keyword2
+    Monitoreo ambiental \sep playas de la Península de
+Yucatán \sep pastos marinos \sep peces \sep 
+    oligoquetos
 \end{keyword}
 \end{frontmatter}
     
@@ -332,9 +326,9 @@ de su monitoreo como bioindicadores ecológicos.
 
 Dada la importancia de pastos marinos, peces y oligoquetos en la
 estabilidad ecológica de las playas de la península de Yucatán, una
-serie de muestreos que integren a estos tres grupos puede resultar
-valiosa para el monitoreo de áreas de conservación. Destacamos la
-importancia de emplear protocolos de muestreo existentes, ya que es
+serie de muestreos estandarizados que integren a estos tres grupos puede
+resultar valiosa para el monitoreo de áreas de conservación. Destacamos
+la importancia de emplear protocolos de muestreo existentes, ya que es
 fundamental para presentar información comparable con estudios previos y
 posteriores al presente, lo que permitirá obtener una perspectiva más
 completa del estado ecológico de la zona. Así, el objetivo de este
@@ -373,7 +367,7 @@ estudio}}{Área de estudio}}\label{uxe1rea-de-estudio}
 
 El presente se llevó a cabo en Dzilam de Bravo (21.390166° N, 88.908361°
 W), región costera del norte de la península de Yucatán, México. Este
-sitio fue seleccionado debido a su diversidad ecológica, la cual incluye
+sitio fue seleccionado debido a su diversidad biológica, la cual incluye
 a los grupos objeto de estudio. La zona se caracteriza por un clima
 cálido a lo largo del año, con temperaturas promedio anuales de 25.3 °C.
 El sustrato predominante en la zona es arena fina.
@@ -519,8 +513,8 @@ Para los datos obtenidos del protocolo de oligoquetos, se tenía planeado
 comparar la abundancia y talla entre las distintas regiones de la playa
 (submareal, intermareal, supramareal) sin embargo, al empezar a extraer
 los oligoquetos se volvió aparente que existe más variación dentro, que
-entre las distintas regiones de la playa (ver \citet{fig1}), por lo que
-se decidió tratar los distintos núcleos como unidades de muestreo
+entre las distintas regiones de la playa (ver Figure~\ref{fig-5}), por
+lo que se decidió tratar los distintos núcleos como unidades de muestreo
 separadas.
 
 Previo al análisis estadístico se realizaron pruebas Shapiro-Wilks y
@@ -554,129 +548,346 @@ con el nucleador.
 
 \section{Resultados}\label{resultados}
 
-\begin{figure}[H]
+\begin{longtable}[t]{>{\raggedright\arraybackslash}p{0.7cm}>{\raggedright\arraybackslash}p{0.7cm}>{\raggedleft\arraybackslash}p{0.7cm}>{\raggedleft\arraybackslash}p{0.7cm}>{\raggedleft\arraybackslash}p{0.7cm}>{\raggedleft\arraybackslash}p{0.7cm}>{\raggedleft\arraybackslash}p{0.7cm}>{\raggedleft\arraybackslash}p{0.7cm}}
 
-{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{ECVI_files/figure-pdf/fig1-1.pdf}
+\caption{\label{tbl-1}Variables ambientales del agua medidas con el
+medidor multiparamétrico. Las mediciones se tomaron al principio de cada
+muestreo de pastos marinos.}
 
-}
+\tabularnewline
 
-\caption{Tamaño de Oligoquetos en los distintos horarios}
+\toprule
+\begingroup\fontsize{5}{7}\selectfont Fecha\endgroup & \begingroup\fontsize{5}{7}\selectfont Horario\endgroup & \begingroup\fontsize{5}{7}\selectfont Temp (C°)\endgroup & \begingroup\fontsize{5}{7}\selectfont OD (\%)\endgroup & \begingroup\fontsize{5}{7}\selectfont SDT (mg/L)\endgroup & \begingroup\fontsize{5}{7}\selectfont Salinidad (ppt)\endgroup & \begingroup\fontsize{5}{7}\selectfont pH\endgroup & \begingroup\fontsize{5}{7}\selectfont Prof (m)\endgroup\\
+\midrule
+\begingroup\fontsize{5}{7}\selectfont 13/may\endgroup & \begingroup\fontsize{5}{7}\selectfont Matutino\endgroup & \begingroup\fontsize{5}{7}\selectfont 26.8\endgroup & \begingroup\fontsize{5}{7}\selectfont 34.0\endgroup & \begingroup\fontsize{5}{7}\selectfont 34556\endgroup & \begingroup\fontsize{5}{7}\selectfont 35.05\endgroup & \begingroup\fontsize{5}{7}\selectfont 8.03\endgroup & \begingroup\fontsize{5}{7}\selectfont 0.5\endgroup\\
+\begingroup\fontsize{5}{7}\selectfont 13/may\endgroup & \begingroup\fontsize{5}{7}\selectfont Vespertino\endgroup & \begingroup\fontsize{5}{7}\selectfont 30.9\endgroup & \begingroup\fontsize{5}{7}\selectfont 93.5\endgroup & \begingroup\fontsize{5}{7}\selectfont 34830\endgroup & \begingroup\fontsize{5}{7}\selectfont 35.24\endgroup & \begingroup\fontsize{5}{7}\selectfont 8.26\endgroup & \begingroup\fontsize{5}{7}\selectfont 0.4\endgroup\\
+\begingroup\fontsize{5}{7}\selectfont 15/may\endgroup & \begingroup\fontsize{5}{7}\selectfont Matutino\endgroup & \begingroup\fontsize{5}{7}\selectfont 28.7\endgroup & \begingroup\fontsize{5}{7}\selectfont 58.3\endgroup & \begingroup\fontsize{5}{7}\selectfont 33972\endgroup & \begingroup\fontsize{5}{7}\selectfont 34.33\endgroup & \begingroup\fontsize{5}{7}\selectfont 8.18\endgroup & \begingroup\fontsize{5}{7}\selectfont 0.5\endgroup\\
+\begingroup\fontsize{5}{7}\selectfont 15/may\endgroup & \begingroup\fontsize{5}{7}\selectfont Vespertino\endgroup & \begingroup\fontsize{5}{7}\selectfont 31.5\endgroup & \begingroup\fontsize{5}{7}\selectfont 140.1\endgroup & \begingroup\fontsize{5}{7}\selectfont 34256\endgroup & \begingroup\fontsize{5}{7}\selectfont 34.60\endgroup & \begingroup\fontsize{5}{7}\selectfont 8.40\endgroup & \begingroup\fontsize{5}{7}\selectfont 0.4\endgroup\\
+\bottomrule
 
-\end{figure}%
+\end{longtable}
 
-\begin{figure}[H]
+\subsection{Pastos marinos}\label{pastos-marinos-1}
 
-{\centering \includegraphics[width=0.5\textwidth,height=\textheight]{ECVI_files/figure-pdf/Fig2-1.pdf}
-
-}
-
-\caption{Talla de oligoquetos en los núcleos}
-
-\end{figure}%
-
-\section{Bibliography styles}\label{bibliography-styles}
-
-Here are two sample references: \citet{Feynman1963118}
-\citet{Dirac1953888}.
-
-With this template using elsevier class, natbib will be used. Three
-bibliographic style ﬁles (*.bst) are provided and their use controled by
-\texttt{cite-style} option:
-
-\begin{itemize}
-\tightlist
-\item
-  \texttt{citestyle:\ number} (default) will use
-  \texttt{elsarticle-num.bst} - can be used for the numbered scheme
-\item
-  \texttt{citestyle:\ numbername} will use
-  \texttt{elsarticle-num-names.bst} - can be used for numbered with new
-  options of natbib.sty
-\item
-  \texttt{citestyle:\ authoryear} will use \texttt{elsarticle-harv.bst}
-  --- can be used for author year scheme
-\end{itemize}
-
-This \texttt{citestyle} will insert the right \texttt{.bst} and set the
-correct \texttt{classoption} for \texttt{elsarticle} document class.
-
-Using \texttt{natbiboptions} variable in YAML header, you can set more
-options for \texttt{natbib} itself . Example
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\FunctionTok{natbiboptions}\KeywordTok{:}\AttributeTok{ longnamesfirst,angle,semicolon}
-\end{Highlighting}
-\end{Shaded}
-
-\subsection{Using CSL}\label{using-csl}
-
-If \texttt{cite-method} is set to \texttt{citeproc} in
-\texttt{elsevier\_article()}, then pandoc is used for citations instead
-of \texttt{natbib}. In this case, the \texttt{csl} option is used to
-format the references. By default, this template will provide an
-appropriate style, but alternative \texttt{csl} files are available from
-\url{https://www.zotero.org/styles?q=elsevier}. These can be downloaded
-and stored locally, or the url can be used as in the example header.
-
-\section{Equations}\label{equations}
-
-Here is an equation: \[ 
-  f_{X}(x) = \left(\frac{\alpha}{\beta}\right)
-  \left(\frac{x}{\beta}\right)^{\alpha-1}
-  e^{-\left(\frac{x}{\beta}\right)^{\alpha}}; 
-  \alpha,\beta,x > 0 .
-\]
-
-Inline equations work as well: \(\sum_{i = 2}^\infty\{\alpha_i^\beta\}\)
-
-\section{Figures and tables}\label{figures-and-tables}
-
-Figure~\ref{fig-meaningless} is generated using an R chunk.
+El protocolo de pastos se realizó a lo largo de 2 días en 4 eventos de
+muestreo. En total se midió la cobertura de 14 cuadrantes, 8 en zonas
+someras y 6 profundas. Se identificaron 3 especies de pastos marinos
+(\emph{Thalassia testudinum}, \emph{Syringodium filiforme},
+\emph{Halodule beaudettei}), y 4 especies de algas (\emph{Laurencia
+poitei}, \emph{Acetabularia calyculus}, \emph{Halimeda incrassata},
+\emph{Penicillus capitatus}). En zonas someras, hay una mayor cobertura
+de algas, en comparación con zonas más profundas, sin embargo en ambas
+regiones los pastos marinos son más dominantes que especies de algas. El
+análisis estadístico no mostró diferencias estadísticamente
+significativas entre la composición de la cobertura en las dos
+profundidades (F = 0.83, \emph{p = 0.3924}). La especie de pasto
+\emph{H. beaudettei} contribuyó más a la disimilitud entre las dos
+profundidades, seguido por \emph{P. capitatus} y \emph{L. poitei}.
 
 \begin{figure}
 
 \centering{
 
-\includegraphics[width=0.5\textwidth,height=\textheight]{ECVI_files/figure-pdf/fig-meaningless-1.pdf}
+\includegraphics[width=0.5\textwidth,height=\textheight]{ECVI_files/figure-pdf/fig-1-1.pdf}
 
 }
 
-\caption{\label{fig-meaningless}A meaningless scatterplot}
+\caption{\label{fig-1}(a) MDS y (b) PCO de la cobertura de la comunidad
+de pastos, los colores representan la profundidad (profundo = rojo,
+somero = azul).}
 
 \end{figure}%
 
-\section{Tables coming from R}\label{tables-coming-from-r}
+\begin{longtable}[t]{>{\raggedright\arraybackslash}p{0.7cm}>{\raggedright\arraybackslash}p{0.7cm}>{\raggedright\arraybackslash}p{0.7cm}>{\raggedright\arraybackslash}p{0.7cm}>{\raggedright\arraybackslash}p{0.7cm}>{\raggedright\arraybackslash}p{0.7cm}>{\raggedright\arraybackslash}p{0.7cm}>{\raggedright\arraybackslash}p{0.7cm}>{\raggedright\arraybackslash}p{0.7cm}}
 
-Tables can also be generated using R chunks, as shown in
-Table~\ref{tbl-simple} example.
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{kable}\NormalTok{(}\FunctionTok{head}\NormalTok{(mtcars)[,}\DecValTok{1}\SpecialCharTok{:}\DecValTok{4}\NormalTok{])}
-\end{Highlighting}
-\end{Shaded}
-
-\begin{longtable}[]{@{}lrrrr@{}}
-
-\caption{\label{tbl-simple}Caption centered above table}
+\caption{\label{tbl-2}La cobertura promedio de los cuadrantes en las dos
+profundidades, y el total de ambas profundidades por especie. La columna
+``Total'' muestra la suma total de los porcentajes de cobertura de todas
+las especies. La fila de aporte a la disimilitud muestra cuando las
+especies contribuyen a la diferencia entre ambas zonas. Los valores
+\emph{p} fueron calculados con la función de simper \{vegan\}, y valores
+mas bajos indican un mayor aporte a las diferencias entre las dos
+profundidades.}
 
 \tabularnewline
 
-\toprule\noalign{}
-& mpg & cyl & disp & hp \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-Mazda RX4 & 21.0 & 6 & 160 & 110 \\
-Mazda RX4 Wag & 21.0 & 6 & 160 & 110 \\
-Datsun 710 & 22.8 & 4 & 108 & 93 \\
-Hornet 4 Drive & 21.4 & 6 & 258 & 110 \\
-Hornet Sportabout & 18.7 & 8 & 360 & 175 \\
-Valiant & 18.1 & 6 & 225 & 105 \\
+\toprule
+\begingroup\fontsize{5}{7}\selectfont Prof\endgroup & \begingroup\fontsize{5}{7}\selectfont S. f.\endgroup & \begingroup\fontsize{5}{7}\selectfont H. b.\endgroup & \begingroup\fontsize{5}{7}\selectfont T. t.\endgroup & \begingroup\fontsize{5}{7}\selectfont L. p.\endgroup & \begingroup\fontsize{5}{7}\selectfont H. i.\endgroup & \begingroup\fontsize{5}{7}\selectfont A. c.\endgroup & \begingroup\fontsize{5}{7}\selectfont P. c.\endgroup & \begingroup\fontsize{5}{7}\selectfont Total\endgroup\\
+\midrule
+\begingroup\fontsize{5}{7}\selectfont Somero\endgroup & \begingroup\fontsize{5}{7}\selectfont 27.20\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 14\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 10.70\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 28.50\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 12.10\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 2\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 0\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 94.50\%\endgroup\\
+\begingroup\fontsize{5}{7}\selectfont Profundo\endgroup & \begingroup\fontsize{5}{7}\selectfont 28.40\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 37.30\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 2.50\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 16.20\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 8.50\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 0.50\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 0.03\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 93.40\%\endgroup\\
+\begingroup\fontsize{5}{7}\selectfont Ambos\endgroup & \begingroup\fontsize{5}{7}\selectfont 27.80\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 25.65\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 6.60\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 22.35\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 10.30\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 1.25\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 0.02\%\endgroup & \begingroup\fontsize{5}{7}\selectfont 93.95\%\endgroup\\
+\begingroup\fontsize{5}{7}\selectfont Aporte a la disimilitud\endgroup & \begingroup\fontsize{5}{7}\selectfont 0.833\endgroup & \begingroup\fontsize{5}{7}\selectfont 0.069\endgroup & \begingroup\fontsize{5}{7}\selectfont 0.739\endgroup & \begingroup\fontsize{5}{7}\selectfont 0.317\endgroup & \begingroup\fontsize{5}{7}\selectfont 0.888\endgroup & \begingroup\fontsize{5}{7}\selectfont 0.43\endgroup & \begingroup\fontsize{5}{7}\selectfont 0.23\endgroup & \begingroup\fontsize{5}{7}\selectfont NA\endgroup\\
+\bottomrule
 
 \end{longtable}
+
+\begin{figure}
+
+\centering{
+
+\includegraphics[width=0.5\textwidth,height=\textheight]{ECVI_files/figure-pdf/fig-2-1.pdf}
+
+}
+
+\caption{\label{fig-2}MDS del peso de las algas extraídas de un
+cuadrante de 25 cm\^{}2. Los muestreos en zonas profundas están
+representados por los puntos rojos mientras los de las zonas someras en
+azul.}
+
+\end{figure}%
+
+Para el protocolo de biomasa de algas se colectaron las algas de 8 SUM.
+Se identificaron 7 especies, 4 de las cuales no se habían presentado en
+el muestreo de cobertura (\emph{Dictyota divaricata}, \emph{Dictyota
+cervicornis}, \emph{Udotea sp.}, \emph{A. crenulata}). El PERMANOVA no
+mostró diferencias significativas entre las dos profundidades (F =
+1.4239, \emph{p = 0.2621}). Por último se habían extraído 8 núcleos de
+sedimento. Ninguno de los análisis a los datos extraídos de los núcleos
+mostraron diferencias significativas (biomasa de las algas y pastos, F =
+0.6667, \emph{p = 0.7119}; número de haces, F = 0.4803, \emph{p =
+0.7418}; individuos más largos, F = 1.4908, \emph{p = 0.2837}).
+
+\subsection{Peces}\label{peces-1}
+
+Las cámaras trampa capturaron un total de 1,514 fotos, 39 de las cuales
+contenían peces. Se lograron identificar dos especies. La especie que
+más salió en las fotos fue \emph{Eucinostomus gula} (mojarra española),
+es probable que las distintas fotos sean del mismo individuo
+(Figure~\ref{fig-3}) La segunda especie que se logró identificar fue
+\emph{Sphoeroides testudineus}, que apareció en solamente una imagen
+(Figure~\ref{fig-4}). Hubo una imagen que capturó a 4 peces pero por la
+distancia a la cámara no se lograron identificar.
+
+\begin{figure}
+
+\centering{
+
+\includegraphics[width=0.5\textwidth,height=\textheight]{FOTOS/DSCF0173_Egula.JPG}
+
+}
+
+\caption{\label{fig-3}Foto capturada con la cámara trampa de \emph{E.
+gula}.}
+
+\end{figure}%
+
+\begin{figure}
+
+\centering{
+
+\includegraphics[width=0.5\textwidth,height=\textheight]{FOTOS/DSCF0450_S.JPG}
+
+}
+
+\caption{\label{fig-4}Foto capturada con la cámara trampa de \emph{S.
+testudineus}.}
+
+\end{figure}%
+
+\subsection{Oligoquetos}\label{oligoquetos-1}
+
+Durante el transcurso de la práctica se realizaron 8 transectos, 4 en el
+horario matutino y en el horario vespertino. En cada transecto se
+extrajeron 9 núcleos: 4 en la zona submareal, 1 en el intermareal, y 4
+en la área supramareal. En total se realizaron 72 muestreos donde se
+recolectaron 1,226 oligoquetos con un tamaño medio de 4.5 cm, una
+mediana de 3.8, con un rango en tamaño de entre 0.2 cm y 20.1 cm. La
+abundancia de individuos por núcleo estuvo entre 0 y 141, con una media
+de 15.8 y mediana de 3. La mayoría de oligoquetos se encontraron al
+centro del transecto, con los muestreos en el supramareal 4 y submareal
+4, sin presentar ningún oligoqueto en la mayoría de los muestreos. Para
+ambas variables los muestreos más alejados del intermareal, tanto en las
+zonas submareales, como las supramareales, presentaron valores medios
+más bajos.
+
+\begin{figure}
+
+\centering{
+
+\includegraphics[width=0.5\textwidth,height=\textheight]{ECVI_files/figure-pdf/fig-5-1.pdf}
+
+}
+
+\caption{\label{fig-5}Boxplot de la talla de oligoquetos en los
+distintos muestreos de la playa. Los colores representan horarios
+distintos (matutino = rojo, vespertino = azul).}
+
+\end{figure}%
+
+\begin{figure}
+
+\centering{
+
+\includegraphics[width=0.5\textwidth,height=\textheight]{ECVI_files/figure-pdf/fig-6-1.pdf}
+
+}
+
+\caption{\label{fig-6}Boxplot de la talla de oligoquetos en ambos
+horarios.}
+
+\end{figure}%
+
+\begin{figure}
+
+\centering{
+
+\includegraphics[width=0.5\textwidth,height=\textheight]{ECVI_files/figure-pdf/fig-7-1.pdf}
+
+}
+
+\caption{\label{fig-7}Boxplot de la abundancia de oligoquetos a lo largo
+de los transectos. Los colores representan el horario (matutino = rojo,
+vespertino = morado).}
+
+\end{figure}%
+
+El análisis mostró que tanto la hora (F = 10.081, \emph{p \textless{}
+0.01}; Figure~\ref{fig-6}), como la posición en la playa (F = 51.336 ,
+\emph{p \textless{} 0.01}; Figure~\ref{fig-5}) y la interacción entre
+ambos (F = 28.042, \emph{p \textless{} 0.01}), son factores que influyen
+de manera significativa sobre la talla. El tamaño promedio de los
+oligoquetos extraídos en el horario matutino es ligeramente mayor que
+los encontrados en el horario vespertino. El tamaño de los oligoquetos
+va incrementando desde el submareal 4 hasta el intermareal donde se
+mantiene constante hasta el supramareal 2 donde vuelve a declinar. Para
+la variable de abundancia únicamente la posición en la playa influyó de
+manera significativa (F = 10.554, \emph{p = 0.0001};
+Figure~\ref{fig-7}), sin embargo la interacción entre las dos variables
+fue significativa. Para ambas variables los muestreos más alejados del
+intermareal, tanto en las zonas submareales, como las supramareales,
+presentaron valores medios más bajos.
+
+\section{Discusión}\label{discusiuxf3n}
+
+Este estudio analiza el estado ecológico de una playa representativa de
+la península de Yucatán, centrándose en tres grupos de organismos clave
+para el ecosistema, involucrados en la salud de la comunidad a través de
+sus interacciones bióticas. Con base en los resultados obtenidos de los
+análisis, no podemos afirmar con certeza que nuestras predicciones
+iniciales se hayan cumplido, pero tampoco podemos descartarlas por
+completo, ya que se observa una tendencia acorde con lo planteado, aún
+si los datos obtenidos no ofrecen evidencia suficiente para confirmar
+que las predicciones se cumplieron. Para futuras investigaciones,
+sugerimos aumentar la cantidad de muestras para obtener datos más
+representativos y mejorar la precisión de los análisis.
+
+Estudios previos han señalado una abundante presencia de organismos
+intersticiales tanto en la zona intermareal como en la supramareal,
+particularmente en regiones húmedas pero no sumergidas,
+\citet{McLachlanBrown2006} denominaron este espacio como la ``zona de
+retención''. De la misma manera, la distribución de estos organismos,
+debido a su carácter de menores dimensiones, está influenciada
+principalmente por interacciones bióticas, como la atracción para la
+reproducción y la evasión de depredadores \citep{Giere2009}.
+
+Así, el constante movimiento de las corrientes marinas resulta
+fundamental en esta distribución, pues se ha observado que el
+levantamiento del sedimento los deja expuestos y vulnerables a sus
+depredadores y a ser transportados incluso por corrientes de baja
+intensidad, lo que limita su permanencia en zonas de inundación
+prolongada \citep{McLachlanBrown2006}. Para estudios futuros, será
+esencial considerar la influencia de las variaciones en la altura de la
+marea en la distribución de estas poblaciones, en lugar de asumir un
+punto fijo como zona intermareal.
+
+La distribución de oligoquetos sigue patrones definidos, aunque con
+ciertas variaciones irregulares. \citet{EdwardsArancon2022} reportan
+ritmos de actividad diurnos, lo que indica que los horarios en los que
+se realizaron los muestreos no fueron la causa de la falta de
+certidumbre en los datos. Además, el número de individuos por núcleo fue
+similar con lo reportado previamente en estudios que utilizaron la misma
+metodología en la misma zona \citep{Guerra-Castro2020}, lo que sugiere
+que los datos obtenidos son representativos de la población estudiada.
+
+Por otra parte, durante el muestreo, se registró una cobertura de
+biomasa de vegetación en descomposición sobre la zona de retención en la
+supramareal, lo que pudo haber influido en la retención de humedad del
+ambiente intersticial y, en consecuencia, en la distribución de la
+población de \emph{T. diazi} en la playa. Estos factores pudieron haber
+sido la causa de que los datos no fueran lo suficientemente contundentes
+para respaldar con certeza los fenómenos previamente descritos, por lo
+tanto, representan un punto de partida para futuras investigaciones que
+consideren estos elementos.
+
+En cuanto al registro de peces, las cámaras utilizadas para la grabación
+no estaban correctamente configuradas, lo que impidió la obtención de
+datos. Respecto a las fotografías, el material obtenido no representa la
+diversidad reportada previamente en la zona, la cantidad de especies que
+reportamos sólo cubre 2 de las 81 reportadas para la comunidad de la
+localidad, sin embargo, son dos de las seis especies más abundantes en
+el sitio \citep{ArceoCarranza2009}.
+
+Para futuros trabajos de monitoreo recomendamos seguir la metodología de
+\citet{ArceoCarranza2009}, donde se llevaron a cabo seis muestreos
+bimestrales, separados por dos meses, que en conjunto abarcaron un
+período de un año. Un monitoreo más prolongado permitirá observar una
+mayor y mejor representación de la fauna íctica de la región y el papel
+de la comunidad de pastos marinos como zonas de gran impacto ecológico
+\citep{CATALAN_DUNAND_ÁLVAREZ_ALOS_COLINAS_NASH_2014}.
+
+Por otro lado, para la evaluación del desarrollo de la composición de
+pastos marinos tampoco observamos datos contundentes para asegurar el
+cumplimiento de nuestras predicciones, sin embargo, como en los casos
+anteriores, una ampliación de nuestra metodología permitiría observar
+variación de manera más significativa, un mayor número de muestras y
+profundidades más alejadas de la línea de la costa. Resaltamos
+particularmente los resultados obtenidos para la cobertura, sería
+recomendable realizar mediciones adicionales mar adentro, pues, a pesar
+de que la distancia a la que llevamos a cabo el muestreo no presentó la
+variación esperada, la profundidad, como se observa en la
+Figure~\ref{fig-1}, explica en buena medida dicha variación, aunque no
+la explique lo suficiente.
+
+No consideramos que la aparente homogeneidad de la comunidad de pastos
+marinos sea consecuencia de eventos de origen antrópico o natural, sino
+por limitaciones en la metodología empleada. Sin embargo, resaltamos la
+importancia de considerar ciertas perturbaciones en futuros estudios
+dirigidos a evaluar y reportar el estado ecológico de las comunidades
+costeras.
+
+\citet{HERRERASILVEIRA200972} reportan que los cambios negativos en la
+cobertura y composición de especies de vegetación acuática sumergida en
+pastos marinos están generalmente asociados con la eutrofización del
+ambiente \citep{OrthMoore1983, Stevenson1993}, provocada por un
+crecimiento excesivo de macroalgas y epífitas \citep{Dennison1993}; así
+mismo, indican que no existe una medida que determine cuándo el
+crecimiento de estos organismos se vuelve nocivo para la comunidad. No
+obstante, resaltan que un buen acercamiento para evaluar esta situación
+es examinar el cambio en el porcentaje de cobertura en el tiempo
+\citep{Bricker2003}. Así, llevar a cabo monitoreos periódicos siguiendo
+una metodología estandarizada, se vuelve clave para prevenir el
+deterioro en la salud de la comunidad de pastos marinos.
+
+Por otra parte, \citet{Herrera-Silveira2019} analizan el impacto de los
+puertos industrializados en las comunidades de pastos marinos,
+especialmente en zonas de intenso desarrollo costero, donde la pérdida
+de extensas áreas de estas plantas ocurre a un ritmo acelerado. De la
+misma manera, presentan los efectos de estas pérdidas en la calidad del
+agua, como el aumento de la turbidez debido a la disminución en la
+retención de sedimentos y la eutrofización causada por la ausencia de
+estos organismos clave en el ciclaje de nutrientes.
+
+Además, las comunidades de pastos marinos también se ven afectadas por
+eventos hidrometeorológicos, los cuales incrementan la escorrentía y, en
+consecuencia, la turbidez del agua, reduciendo la disponibilidad de luz.
+Este fenómeno se agrava en el caso de tormentas prolongadas, que pueden
+durar semanas y causar daños significativos, al dañar, remover y
+enterrar grandes cantidades de biomasa de estas plantas acuáticas
+\citep{Herrera-Silveira2019}.
+
+Aunque nuestro estudio no obtuvo evidencia concluyente para determinar
+el estado ecológico de la comunidad en la playa de Dzilam de Bravo, sí
+ofrece un panorama sobre las condiciones en las que se encuentra. En
+zonas como esta, donde las comunidades de pastos marinos están sometidas
+a una intensa presión por efectos antrópicos derivados de grandes
+desarrollos costeros, así como por factores naturales propios de una
+región expuesta constantemente a eventos hidrometeorológicos, es
+fundamental realizar muestreos periódicos y estandarizados que permitan
+evaluar el impacto de dichas perturbaciones en los pastos marinos, zonas
+clave para garantizar la sostenibilidad y el bienestar de las
+comunidades costeras y marinas, regionales y globales, al ser sitios
+esenciales para la interacción intra e interespecífica.
 
 
 \renewcommand\refname{Referencias}
